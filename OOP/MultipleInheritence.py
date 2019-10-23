@@ -4,7 +4,7 @@ class ElectricCar:
         self._color = color
 
     def run(self):
-        return f"{self._model} runs on electric"
+        return f"{self._model} is running on electric"
     
     @property
     def color(self):
@@ -16,7 +16,7 @@ class DieselCar:
         self._color = color
 
     def run(self):
-        return f"{self._model} runs on diesel"
+        return f"{self._model} is running on diesel"
     
     @property
     def color(self):
@@ -27,4 +27,4 @@ class Audi(ElectricCar,DieselCar):
         super().__init__(model,color)
 
 myAudi = Audi("v8.0","Black")
-print(f"Audi of {myAudi.color} and model {myAudi.run()}")
+print(f"Audi of {myAudi.color} color and model {myAudi.run()}")
