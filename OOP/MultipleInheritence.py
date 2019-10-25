@@ -26,5 +26,6 @@ class Audi(ElectricCar,DieselCar):
     def __init__(self,model,color):
         super().__init__(model,color)
 
+#Implemetation on Multiple Inheritence
 myAudi = Audi("v8.0","Black")
 print(f"Audi of {myAudi.color} color and model {myAudi.run()}")
