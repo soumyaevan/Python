@@ -10,8 +10,8 @@ class BankAccount:
     def withdraw(self,num):
         self.balance -= num
         return self.balance
-        
-#Added comment
+
+#Added Comment- This is implemetation of Class BankAccount in ClassDemo2.py
 acct = BankAccount("Darcy")
 print(acct.owner)
 print(acct.balance)

@@ -10,7 +10,7 @@ class Chicken:
         Chicken.total_eggs += 1
         return self.eggs
 
-#Added Comment
+#Added Comment -This is implemetation of Class Chciken in ClassDemo3.py
 c1 = Chicken("Indian","Murgi")
 c2 = Chicken("Chinese","Chinese_Murgi")
 print(Chicken.total_eggs)
