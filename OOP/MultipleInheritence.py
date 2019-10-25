@@ -9,7 +9,6 @@ class ElectricCar:
     @property
     def color(self):
         return self._color
-
 class DieselCar:
     def __init__(self,model,color):
         self._model = model
