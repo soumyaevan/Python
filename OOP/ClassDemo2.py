@@ -11,7 +11,7 @@ class BankAccount:
         self.balance -= num
         return self.balance
         
-
+#This is implemetation of Class BankAccount in ClassDemo2.py
 acct = BankAccount("Darcy")
 print(acct.owner)
 print(acct.balance)
