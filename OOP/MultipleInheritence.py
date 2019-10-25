@@ -3,7 +3,7 @@ class ElectricCar:
         self._model = model
         self._color = color
 
-#Following functions define run
+#Following functions define the engine mechanism
     def run(self):
         return f"{self._model} is running on electric"
     
