@@ -7,6 +7,7 @@ class User:
     def full_name(self):
         return f"{self.fname} {self.lname}"
 
+#Added comment
 user1 = User("Soumya","Sen",25)
 user2 = User("Pranoy","Das",27)
 print(user1.full_name(), user1.age)
