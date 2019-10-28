@@ -1,0 +1,6 @@
+setup.py
+src/WordDocScreenShot.py
+src/WordDocScreenShot.egg-info/PKG-INFO
+src/WordDocScreenShot.egg-info/SOURCES.txt
+src/WordDocScreenShot.egg-info/dependency_links.txt
+src/WordDocScreenShot.egg-info/top_level.txt
