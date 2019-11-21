@@ -4,11 +4,11 @@ def make_song(count=99,beverage='soda'):
         try:
             if i==0:
                 yield "No more {} left".format(beverage)
-                break
+                #break
             elif i == 1:
                 yield "Only 1 bottle of {} left".format(beverage)
                 i=i-1
-                continue
+                #continue
             else:
                 yield "{} bottles of {} on the wall".format(i,beverage)
                 i = i-1
