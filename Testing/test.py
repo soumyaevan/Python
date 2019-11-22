@@ -1,5 +1,5 @@
 import unittest
-from activities import eat, nap
+from Python.Testing.activities import eat, nap
 
 class ActivityTests(unittest.TestCase):
     def test_eat_healthy(self):
