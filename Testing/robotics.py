@@ -19,3 +19,7 @@ class Robot:
             self.battery -= 5
             return self.skill
         return f"Not enough charge left to learn new skill!"
+    
+with Robot("rbf", battery=45) as rbf:
+    rbf.charge()
+    print(rbf.say_name())

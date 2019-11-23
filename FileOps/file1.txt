@@ -1,0 +1,3 @@
+My name is Soumya Sen.
+I am an Automation Test Engineer.
+I am currently in Oslo.

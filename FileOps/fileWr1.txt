@@ -1,0 +1,8 @@
+Writing first row in a new file
+WOO! Adding another row!!!
+That's enough!!! Finishing it...
+Wow!!! Appended a new row
+Writing first line in a new file
+WOO! Adding another line!!!
+That's enough!!! Finishing it...
+Wow!!! Appended a new line
