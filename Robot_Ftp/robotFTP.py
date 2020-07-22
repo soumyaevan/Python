@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-
-#  Copyright 2019-  DNB
-#
 #  Licensed under the Apache License, Version 2.0 (the "License");
 #  you may not use this file except in compliance with the License.
 #  You may obtain a copy of the License at
@@ -20,7 +16,7 @@ import socket
 from robot.api import logger
 from robot.api.deco import keyword
 
-class rbfFTP(object):
+class robotFTP(object):
 
     """
 This library provides functionality of FTP client.
