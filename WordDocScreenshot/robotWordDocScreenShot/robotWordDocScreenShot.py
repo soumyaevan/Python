@@ -5,7 +5,7 @@ from robot.api.deco import keyword
 import shutil
 import os
 
-class rbfWordDocScreenShot():
+class robotWordDocScreenShot():
     
     @keyword
     def createDoc(self,title,scPath):
